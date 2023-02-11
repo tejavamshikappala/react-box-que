@@ -1,0 +1,73 @@
+/* Write your code here. */
+.for_background {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forHeader {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: "Roboto";
+  text-align: center;
+}
+.Information_Message {
+  display: flex;
+  flex-direction: row;
+
+  padding-right: 20px;
+  padding-left: 5px;
+  background-color: #0b69ff;
+
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.Success_Message {
+  display: flex;
+  flex-direction: row;
+
+  padding-right: 20px;
+  padding-left: 5px;
+  background-color: #2dca73;
+
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.Warning_Message {
+  display: flex;
+  flex-direction: row;
+
+  padding-right: 20px;
+  padding-left: 5px;
+  background-color: #ffb800;
+
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.Error_Message {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-left: 5px;
+  background-color: #ff0b37;
+
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.forImg {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-right: 10px;
+}
+.forpara {
+  font-size: 15px;
+  font-family: "Roboto";
+  margin-left: 5px;
+}
